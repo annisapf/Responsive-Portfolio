@@ -9,8 +9,8 @@ header, nav {
     background: #FF69B4;
 }
 
-@media (max-width: 991px) {
-    .navbar:not(.top-nav-collapse) {
+@media screen and (max-width: 400px) and (max-width: 954px) {
+    header {
         background: #FF69B4 !important;
     }
 }

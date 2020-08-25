@@ -2,12 +2,17 @@
 <html lang="en">
 
 <head>
-
-    <title>Annisa Purbandari</title>
-
     <meta charset="utf-8">
+    <meta name="description" content="Wesite Developer portfolio" />
+    <meta name="keywords" content="Website Developer, Website Development">
+
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link href="css/styles.css" rel="stylesheet">
+
+
+    <title>Annisa Purbandari</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
@@ -25,55 +30,91 @@
 
 <body>
 
+    <header>
 
-    <header style="background: #FF69B4!important" class="jumbotron">
+        <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#">Annisa</a>
+                <div class="collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">
+                                About Me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="portfolio.html">
+                                Portfolio</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="http://blog.annisapurbandari.com"
+                                target="_blank">
+                                Blog</a>
+                        </li>
+                        <li class="nav-item active"><a class="nav-link" href="contact.html">
+                                Contact Me</a></li>
+                    </ul>
+                </div>
+        </nav>
 
-        <div class="jumbotron text-center" style="margin-bottom:0; background: #FF69B4!important">
-            <h1>Annisa Purbandari</h1>
-            <p>Coding and Cooking in Between</p>
+        <div id="intro-section" class="view">
+
+            <!-- Mask & flexbox-->
+            <div class="mask d-flex justify-content-center align-items-center">
+
+                <!-- Content -->
+                <div class="container px-md-3 px-sm-0">
+
+
+                    <!-- Grid Row-->
+                    <div class="row wow fadeIn">
+
+                        <!--Grid Column-->
+                        <div class="col-md-12 mb-4 white-text text-center">
+                            <h3 class="display-3 font-weight-bold white-text mb-0 pt-md-5 pt-5">Annisa Purbandari</h3>
+                            <hr class="hr-light my-4 w-75">
+                            <h4 class="subtext-header mt-2 mb-4">Coding and Cooking in Between
+                            </h4>
+                            <a href="contact.html" class="btn btn-rounded btn-outline-white">
+                                <i class="fa fa-laptop-code"></i>Hire Me
+                            </a>
+                        </div>
+                        <!-- Grid Column-->
+                    </div>
+                    <!--Grid Row-->
+                </div>
+                <!--Content-->
+
+            </div>
+
         </div>
+
+
     </header>
 
-    <nav style="background:	#FF69B4 !important" class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="#">Annisa</a>
-        <div class="collapse navbar-collapse" id="Navbar">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="./index.html">
-                        About Me</a></li>
-                <li class="nav-item"><a class="nav-link" href="./portfolio.html">
-                        Portfolio</a>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="http://blog.annisapurbandari.com" target="_blank">
-                        Blog</a>
-                </li>
-                <li class="nav-item active"><a class="nav-link" href="./contact.html">
-                        Contact Me</a></li>
-            </ul>
-        </div>
-    </nav>
 
 
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h2 class="media-heading">
-                    Contact Me
-                </h2>
-                <hr>
-            </div>
-        </div>
 
-        <section id="contact" class="py-5" style="background-color: #eee;">
+
+    <!--Main layout-->
+    <main>
+
+        <!--Section About Me-->
+        <section id="portfolio" class="py-5">
+
 
             <div class="container">
+
+
+                <!-- Section heading-->
+                <h2 class="h1-responsive font-weight-bold">
+                    Contact Me
+                </h2>
+
+                <hr>
 
                 <h2 class="h1-responsive font-weight-bold text-center mb-5">Drop a message here</h2>
 
 
-                <form class="text-center border border-light p-5" action="#!">
+                <form id="contactForm" class="text-center border border-light p-5" action="#!">
 
 
                     <div class="row">
@@ -128,8 +169,8 @@
                         <div class="row">
 
                             <div class="col-md-3 align-center">
-                                <button class="btn btn-block my-4" type="submit"
-                                    style="background: #FF69B4!important">Send</button>
+                                <button class="btn btn-block my-4" type="submit" style="background: #FF69B4!important"
+                                    onclick="myFunction">Submit</button>
 
                             </div>
                         </div>
@@ -137,35 +178,40 @@
 
                 </form>
 
+                <script>
+                    function myFunction() {
+                        document.getElementById("myForm").submit();
+                    }
+                </script>
+
 
             </div>
             <!-- Grid column -->
 
+        </section>
+        <!--Section: contact-->
 
-    </div>
-    <!-- Grid row -->
-
-    </section>
-    <!--Section: contact-->
+        </div>
+        <!-- Grid row -->
 
 
-    <br><br><br><br><br>
+        <br><br><br><br><br>
 
 </body>
 
 
 
-
 <!-- Footer -->
-<footer class="page-footer font-small pt-4" style="background: #FF69B4!important">
+<footer class="page-footer font-small pt-4">
 
     <div class="footer-copyright text-center py-3">
-        <p><a href="https://www.linkedin.com/in/annisapurbandari/" target="_blank" class="mx-2" role="button"><i
-                    class="fab fa-linkedin-in" style="color:black"></i></a>
-            <a href="https://github.com/annisapf" target="_blank" class="mx-2" role="button"><i class="fab fa-github"
-                    style="color:black"></i></a></p>
-        Made with <i class="fas fa-heart"></i>
-        (so much love, <em>pinky promise</em>)
+        <a href="https://www.linkedin.com/in/annisapurbandari/" target="_blank" class="mx-2" role="button"><i
+                class="fab fa-linkedin-in" style="color:black"></i></a>
+        <a href="https://github.com/annisapf" target="_blank" class="mx-2" role="button"><i class="fab fa-github"
+                style="color:black"></i></a></p>
+        <p>Made with <i class="fas fa-heart"></i>
+            (so much love, <em>pinky promise)</em></p>
+
     </div>
 
 

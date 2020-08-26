@@ -18,12 +18,17 @@ In addition, building a responsive portfolio using Bootstrap as a website develo
 
 ## Screenshot 
 About Me (992)
+
 ![Annisa-Purbandari-992](https://user-images.githubusercontent.com/7066137/91275712-dbc54900-e7c3-11ea-91db-631aad46308d.png)
 
+
 About Me (768)
+
 ![Annisa-Purbandari-768](https://user-images.githubusercontent.com/7066137/91275839-08796080-e7c4-11ea-9822-c2bbec25ad8b.png)
 
+
 About Me (400)
+
 ![Annisa-Purbandari-400](https://user-images.githubusercontent.com/7066137/91275910-1dee8a80-e7c4-11ea-83db-8cdace8cfa61.png)
 
 

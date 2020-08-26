@@ -17,14 +17,15 @@ In addition, building a responsive portfolio using Bootstrap as a website develo
 * [GetBootstrap] (https://getbootstrap.com/) - Open-source CSS framework directed at responsive, mobile-first front-end web development. 
 
 ## Screenshot 
-About Me (Homepage)
-![Annisa-Purbandari-About](https://user-images.githubusercontent.com/7066137/91266981-ae719e80-e7b5-11ea-879c-cf0f8ba96207.png)
+About Me (992)
+![Annisa-Purbandari-992](https://user-images.githubusercontent.com/7066137/91275712-dbc54900-e7c3-11ea-91db-631aad46308d.png)
 
-Portfolio
-![Annisa-Purbandari-Portfolio](https://user-images.githubusercontent.com/7066137/91267026-c812e600-e7b5-11ea-9f51-c9baeecd98ec.png)
+About Me (768)
+![Annisa-Purbandari-768](https://user-images.githubusercontent.com/7066137/91275839-08796080-e7c4-11ea-9822-c2bbec25ad8b.png)
 
-Contact Me
-![Annisa-Purbandari-Contact](https://user-images.githubusercontent.com/7066137/91270615-41add280-e7bc-11ea-9284-0863bb3a020f.png)
+About Me (400)
+![Annisa-Purbandari-400](https://user-images.githubusercontent.com/7066137/91275910-1dee8a80-e7c4-11ea-83db-8cdace8cfa61.png)
+
 
 
 ### Link to the App

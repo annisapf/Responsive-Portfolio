@@ -9,7 +9,7 @@ header, nav {
     background: #FF69B4;
 }
 
-@media screen and (max-width: 400px) and (max-width: 954px) {
+@media screen and (max-width: 400px) and (max-width: 992px) {
     header {
         background: #FF69B4 !important;
     }

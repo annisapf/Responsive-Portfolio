@@ -24,9 +24,10 @@ Portfolio
 ![Annisa-Purbandari-Portfolio](https://user-images.githubusercontent.com/7066137/91267026-c812e600-e7b5-11ea-9f51-c9baeecd98ec.png)
 
 Contact Me
-![Annisa-Purbandari-About](https://user-images.githubusercontent.com/7066137/91267069-e4af1e00-e7b5-11ea-9304-f699da938571.png)
+![Annisa-Purbandari-Contact](https://user-images.githubusercontent.com/7066137/91270615-41add280-e7bc-11ea-9284-0863bb3a020f.png)
+
 
 ### Link to the App
-<a href="https://annisapf.github.io/Responsive-Portfolio/">This is the link of Github</a>
+<a href="https://annisapf.github.io/Responsive-Portfolio/">This is the link of Github</a><hr>
 <a href="http://annisapurbandari">This is the real website</a><hr>
 

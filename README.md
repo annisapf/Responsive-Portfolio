@@ -2,7 +2,7 @@
 This is a *Responsive Portfolio* containing three pages : About Me, My Portfolio, and Contact Me, made in HTML, CSS and Bootstrap.
 
 ## Goal
-Bootstrap helps a developer to build a website since Bootstrap has one of the best responsive, mobile-first grid systems available. Bootstrap built with Flexbox and very easy to use. As a developer, we can easily scale a single website design from the smallest mobile device to high-definition displays (in this particular case from 400px - 768px - 900px).
+Bootstrap helps a developer to build a responsive website since Bootstrap has one of the best responsive, mobile-first grid systems available. Bootstrap built with Flexbox and very easy to use. As a developer, we can easily scale a single website design from the smallest mobile device to high-definition displays (in this particular case from 400px - 768px - 900px).
 
 In addition, building a responsive portfolio using Bootstrap as a website developer is helpful in showcasing our skills and experiences specially if we are actively looking for a new opportunity. The portfolio is showing our unique style and a collection of projects or past works that would (hopefully) lead to a job offer. 
 

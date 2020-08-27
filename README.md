@@ -34,6 +34,6 @@ About Me (400)
 
 
 ### Link to the App
-<a href="https://annisapf.github.io/Responsive-Portfolio/">This is the link of Github</a><hr>
-<a href="http://annisapurbandari">This is the real website</a><hr>
+<a href="https://annisapf.github.io/Responsive-Portfolio/">The URLs of the deployed applications in GitHub</a><hr>
+<a href="http://annisapurbandari">The URLs of Annisa Website</a><hr>
 
